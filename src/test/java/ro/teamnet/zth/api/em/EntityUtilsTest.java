@@ -2,7 +2,6 @@ package ro.teamnet.zth.api.em;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ro.teamnet.zth.api.annotations.Column;
 import ro.teamnet.zth.appl.domain.Department;
 
 import java.lang.reflect.Field;
