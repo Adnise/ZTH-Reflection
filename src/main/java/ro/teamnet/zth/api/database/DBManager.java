@@ -27,7 +27,7 @@ public class DBManager {
         }
     }
 
-    public static Connection  getConnetion() {
+    public static Connection  getConnection() {
         try {
             Class.forName(DBProperties.DRIVER_CLASS).newInstance();
         } catch (ClassNotFoundException e) {

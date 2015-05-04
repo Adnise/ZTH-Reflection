@@ -10,6 +10,8 @@ public interface DBProperties {
     String USER = "zth";
     String PASS = "parola";
     String DRIVER_CLASS = "com.mysql.jdbc.Driver";
+    boolean IS_ORACLE = false;
+    boolean IS_MYSQL = true;
 
 
 }
